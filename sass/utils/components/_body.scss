@@ -1,5 +1,4 @@
-
-@use  "../utils/variables";
+@use  "../variables";
 
 body {
     font-family: 'DM Sans', sans-serif ;
@@ -21,4 +20,8 @@ ul {
     padding: 0;
  }
 
-
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }

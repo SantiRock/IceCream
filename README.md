@@ -42,4 +42,8 @@ PULL
 - no olviden hacer el pull del dev cuando vayan a trabajar
 - para esto, se ponen en la branch dev y hacen - git pull
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24e7fc4 (proyecto srat team)
 
