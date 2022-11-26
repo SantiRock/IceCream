@@ -18,6 +18,7 @@ Review and contacts:Angélique
 Footer: 
 Angie y Hernán Dario
 
+
 ESTILOS
 - Para los estilos utilisen las hojas scss en la carpeta sass/components
 - los pueden crean en formato css o en formato sass, como les quede mejor, igual se va a compilar todo bien
@@ -42,8 +43,5 @@ PULL
 - no olviden hacer el pull del dev cuando vayan a trabajar
 - para esto, se ponen en la branch dev y hacen - git pull
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 24e7fc4 (proyecto srat team)
 
