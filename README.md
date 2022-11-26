@@ -18,8 +18,6 @@ Review and contacts:Angélique
 Footer: 
 Angie y Hernán Dario
 
-Proyecto Star-Team
-Nuestro objetivo es hacer el mejor trabajo possible como equipo.
 
 ESTILOS
 - Para los estilos utilisen las hojas scss en la carpeta sass/components
@@ -45,5 +43,4 @@ PULL
 - no olviden hacer el pull del dev cuando vayan a trabajar
 - para esto, se ponen en la branch dev y hacen - git pull
 
-ATT: Santiago
 
