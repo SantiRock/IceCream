@@ -54,10 +54,27 @@
   &__item:not(:last-child) {
     margin-right: 35px;
   }
+
+  &__item:hover {
+    cursor: pointer;
+    color: $redfont;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .header-containertop__button {
+    display: none;
+  }
+
+  .header-containerdown__right {
+    display: none;
+  }
+
+  .header-containerdown__leftimage2 {
+    display: none;
+  }
+
+  .header-containerdown__lefttext {
     display: none;
   }
 }
@@ -87,6 +104,11 @@
       align-items: center;
       justify-content: space-between;
     }
+
+    &-containerbottom {
+      margin: auto;
+      max-width: 1200px;
+    }
   }
 }
 
@@ -100,7 +122,6 @@
 
 .header-containerbottom {
   margin: auto;
-  width: 1200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,7 +161,8 @@ border: none;
   height: 40px;
   color: $redfont;
   border-radius: 20px;
-  border: none;
+  border: 1px solid $white;
+
 }
 
 .header-containerdown__lefttext {
