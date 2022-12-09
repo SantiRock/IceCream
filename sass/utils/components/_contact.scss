@@ -26,6 +26,7 @@
         padding-right: 32px;
         padding-bottom: 40px;
         margin-bottom: 20px;
+        transition-duration: 250ms;
     }
 
     &__card:hover {
@@ -60,6 +61,7 @@
     }
 
     &__shedule {
+        width: 270px;
         border-bottom: 1px solid $light-silvercolor;
         width: 100%;
         line-height: 186%;

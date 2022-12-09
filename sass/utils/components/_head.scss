@@ -60,6 +60,9 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
+    animation: navmov;
+    animation-duration: 250ms;
+    transform-origin: center right;
   }
 
   &__item {
@@ -210,7 +213,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-containertop__button {
     display: none;
   }
@@ -375,3 +378,12 @@
   }
 }
 
+@keyframes navmov {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+
+}
